@@ -1,5 +1,7 @@
 # DFDynamicProperty
-Add new property for Objective-c's Class without changing origin Class's code, support reflection, special for JSPatch
+Add new property for Objective-c's class without changing origin class's code, support reflection, special for JSPatch. 
+
+It's very helpful when you want to add a new property with JSPatch, to the iOS Project that integrate MJExtension or JSONModel.
 
 A demo of JSPatch patch file:
 ```js
