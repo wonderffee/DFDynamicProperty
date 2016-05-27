@@ -1,0 +1,15 @@
+PODS:
+  - JSPatch (1.0):
+    - JSPatch/Core (= 1.0)
+  - JSPatch/Core (1.0)
+  - MJExtension (2.0.4)
+
+DEPENDENCIES:
+  - JSPatch (~> 1.0)
+  - MJExtension (~> 2.0.1)
+
+SPEC CHECKSUMS:
+  JSPatch: c689ea4dde17441f2f4a95d40dfedb8900c20099
+  MJExtension: 90503779f5c2608b76b5b0f41efdb05c080d1976
+
+COCOAPODS: 0.39.0
