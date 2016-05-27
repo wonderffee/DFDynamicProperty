@@ -10,4 +10,18 @@
 
 @interface SampleModel : NSObject
 
+//@property (nonatomic, copy) NSString *homeTeam;
+
+//@property (nonatomic, copy) NSString *markerImage;
+
+//@property (nonatomic, copy) NSString *information;
+
+@property (nonatomic, copy) NSString *capacity;
+
+@property (nonatomic, copy) NSString *fixture;
+
+@property (nonatomic, copy) NSString *previousScore;
+
+@property (nonatomic, copy) NSString *awayTeam;
+
 @end

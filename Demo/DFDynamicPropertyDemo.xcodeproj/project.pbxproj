@@ -15,6 +15,13 @@
 		966871EC1CF846710092BD2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966871EA1CF846710092BD2E /* LaunchScreen.storyboard */; };
 		966871F71CF846710092BD2E /* DFDynamicPropertyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 966871F61CF846710092BD2E /* DFDynamicPropertyDemoTests.m */; };
 		966872021CF846710092BD2E /* DFDynamicPropertyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 966872011CF846710092BD2E /* DFDynamicPropertyDemoUITests.m */; };
+		966872171CF849760092BD2E /* DFDynamicProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 966872111CF849760092BD2E /* DFDynamicProperty.m */; };
+		966872181CF849760092BD2E /* NSObject+LcInvokeAllMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 966872141CF849760092BD2E /* NSObject+LcInvokeAllMethod.m */; };
+		966872191CF849760092BD2E /* NSObject+LcProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 966872161CF849760092BD2E /* NSObject+LcProperty.m */; };
+		968FCC021CF876390000F910 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 968FCC011CF876390000F910 /* sample.json */; };
+		968FCC1D1CF876E10000F910 /* SampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 968FCC1C1CF876E10000F910 /* SampleModel.m */; };
+		968FCC1F1CF877B70000F910 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 968FCC1E1CF877B70000F910 /* main.js */; };
+		9E7E9A48B876047BF627A7CC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C51D2A4B67805C606214BD02 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,19 @@
 		966871FD1CF846710092BD2E /* DFDynamicPropertyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFDynamicPropertyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		966872011CF846710092BD2E /* DFDynamicPropertyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFDynamicPropertyDemoUITests.m; sourceTree = "<group>"; };
 		966872031CF846710092BD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966872101CF849760092BD2E /* DFDynamicProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFDynamicProperty.h; sourceTree = "<group>"; };
+		966872111CF849760092BD2E /* DFDynamicProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFDynamicProperty.m; sourceTree = "<group>"; };
+		966872131CF849760092BD2E /* NSObject+LcInvokeAllMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LcInvokeAllMethod.h"; sourceTree = "<group>"; };
+		966872141CF849760092BD2E /* NSObject+LcInvokeAllMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LcInvokeAllMethod.m"; sourceTree = "<group>"; };
+		966872151CF849760092BD2E /* NSObject+LcProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LcProperty.h"; sourceTree = "<group>"; };
+		966872161CF849760092BD2E /* NSObject+LcProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LcProperty.m"; sourceTree = "<group>"; };
+		968FCC011CF876390000F910 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		968FCC1B1CF876E10000F910 /* SampleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleModel.h; sourceTree = "<group>"; };
+		968FCC1C1CF876E10000F910 /* SampleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleModel.m; sourceTree = "<group>"; };
+		968FCC1E1CF877B70000F910 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		C51D2A4B67805C606214BD02 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4DE339E3D13A9C93A2BA60 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DC8D11A182AB6463B812A688 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E7E9A48B876047BF627A7CC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82C01C0371893744DFB2C4BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC4DE339E3D13A9C93A2BA60 /* Pods.debug.xcconfig */,
+				DC8D11A182AB6463B812A688 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		966871D01CF846710092BD2E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +115,8 @@
 				966871F51CF846710092BD2E /* DFDynamicPropertyDemoTests */,
 				966872001CF846710092BD2E /* DFDynamicPropertyDemoUITests */,
 				966871DA1CF846710092BD2E /* Products */,
+				82C01C0371893744DFB2C4BD /* Pods */,
+				FAB2FA9807FDF0C45B6BC2D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +133,8 @@
 		966871DB1CF846710092BD2E /* DFDynamicPropertyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				968FCC1A1CF876AA0000F910 /* Model */,
+				968FCC001CF876390000F910 /* Resources */,
 				9668720F1CF848850092BD2E /* DFDynamicProperty */,
 				966871DF1CF846710092BD2E /* AppDelegate.h */,
 				966871E01CF846710092BD2E /* AppDelegate.m */,
@@ -144,9 +178,49 @@
 		9668720F1CF848850092BD2E /* DFDynamicProperty */ = {
 			isa = PBXGroup;
 			children = (
+				966872101CF849760092BD2E /* DFDynamicProperty.h */,
+				966872111CF849760092BD2E /* DFDynamicProperty.m */,
+				966872121CF849760092BD2E /* LcCategoryProperty */,
 			);
 			name = DFDynamicProperty;
 			path = ../../DFDynamicProperty;
+			sourceTree = "<group>";
+		};
+		966872121CF849760092BD2E /* LcCategoryProperty */ = {
+			isa = PBXGroup;
+			children = (
+				966872131CF849760092BD2E /* NSObject+LcInvokeAllMethod.h */,
+				966872141CF849760092BD2E /* NSObject+LcInvokeAllMethod.m */,
+				966872151CF849760092BD2E /* NSObject+LcProperty.h */,
+				966872161CF849760092BD2E /* NSObject+LcProperty.m */,
+			);
+			path = LcCategoryProperty;
+			sourceTree = "<group>";
+		};
+		968FCC001CF876390000F910 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				968FCC011CF876390000F910 /* sample.json */,
+				968FCC1E1CF877B70000F910 /* main.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		968FCC1A1CF876AA0000F910 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				968FCC1B1CF876E10000F910 /* SampleModel.h */,
+				968FCC1C1CF876E10000F910 /* SampleModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAB2FA9807FDF0C45B6BC2D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C51D2A4B67805C606214BD02 /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 966872061CF846710092BD2E /* Build configuration list for PBXNativeTarget "DFDynamicPropertyDemo" */;
 			buildPhases = (
+				485BD7F6349F5800C24F1C9D /* Check Pods Manifest.lock */,
 				966871D51CF846710092BD2E /* Sources */,
 				966871D61CF846710092BD2E /* Frameworks */,
 				966871D71CF846710092BD2E /* Resources */,
+				0C29D458EADD5CB345EADB9E /* Embed Pods Frameworks */,
+				3673273CE08C1F75BF3D8A3F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,8 +330,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				966871EC1CF846710092BD2E /* LaunchScreen.storyboard in Resources */,
+				968FCC021CF876390000F910 /* sample.json in Resources */,
 				966871E91CF846710092BD2E /* Assets.xcassets in Resources */,
 				966871E71CF846710092BD2E /* Main.storyboard in Resources */,
+				968FCC1F1CF877B70000F910 /* main.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +353,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C29D458EADD5CB345EADB9E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3673273CE08C1F75BF3D8A3F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		485BD7F6349F5800C24F1C9D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		966871D51CF846710092BD2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -281,7 +408,11 @@
 			files = (
 				966871E41CF846710092BD2E /* ViewController.m in Sources */,
 				966871E11CF846710092BD2E /* AppDelegate.m in Sources */,
+				966872171CF849760092BD2E /* DFDynamicProperty.m in Sources */,
+				966872191CF849760092BD2E /* NSObject+LcProperty.m in Sources */,
 				966871DE1CF846710092BD2E /* main.m in Sources */,
+				966872181CF849760092BD2E /* NSObject+LcInvokeAllMethod.m in Sources */,
+				968FCC1D1CF876E10000F910 /* SampleModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,24 +549,28 @@
 		};
 		966872071CF846710092BD2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC4DE339E3D13A9C93A2BA60 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = DFDynamicPropertyDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wonderffee.DFDynamicPropertyDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.property.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		966872081CF846710092BD2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC8D11A182AB6463B812A688 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = DFDynamicPropertyDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wonderffee.DFDynamicPropertyDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.property.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

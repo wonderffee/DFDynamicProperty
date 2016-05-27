@@ -7,25 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import <objc/runtime.h>
-
-
 
 @interface DFDynamicProperty : NSObject
 
-+ (void)addStrPropertyForTargetClass:(Class)targetClass Name:(NSString *)propertyName;
-+ (void)addObjectPropertyForTargetClass:(Class)targetClass withPropertyName:(NSString *)propertyName withValueClass:(Class)valueClass;
+//add NSString property
++ (BOOL)addStringProperty:(NSString *)propertyName
+                 ForClass:(NSString*)className;
 
+//add Object property
++ (BOOL)addObjectProperty:(NSString *)propertyName
+                 ForClass:(NSString*)className
+        withPropertyClass:(NSString*)propertyClassName;
 
-+ (BOOL)classAddPropertyOC:(Class)targetClass withPropertyName:(NSString *)propertyName andAttrs:(objc_property_attribute_t[])attrs;
-
-+ (void)addPropertyForTargetClass:(Class)tagetClass
-                 withPropertyName:(NSString *)propertyName
-                        withAttri:(NSString*)strAttrParams
-                    withvalueType:(Class)valueClass
-             withCustomEncodeType:(NSString*)strEncodeType;
-
-
-+ (void)addPropertyWithtarget:(Class)targetClass withPropertyName:(NSString *)propertyName withValueClass:(Class)valueClass;
++ (BOOL)addCommonProperty:(NSString *)propertyName
+                 ForClass:(NSString*)className
+                withAttri:(NSString*)strAttrParams
+        withPropertyClass:(Class)valueClass
+     withCustomEncodeType:(NSString*)strEncodeType;
 
 @end
